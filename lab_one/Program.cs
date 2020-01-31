@@ -50,7 +50,7 @@ namespace lab_one
                     Console.WriteLine(questions[x]);
                     for (int y = 0; y < optionChoices.Length; y++)
                     {
-                        Console.WriteLine(optionChoices.Length);
+                        Console.WriteLine(optionChoices[x,y]);
                     }
                     Console.WriteLine("Please enter your selection");
                     userSelection = Console.ReadLine();
